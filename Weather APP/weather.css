@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    background-size: cover;
+    max-height: 1000px;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: aliceblue;
+    height: 400px;
+    width: 800px;
+    text-align: center !important;
+    align-items: center;
+    border-radius: 50px;
+    
+}
+.refresh{
+ height: 40px;
+ width: 40px;
+ background-color: #ffffff;
+ border: none impartant!;
+ color: rgb(3, 3, 3);
+ border-radius: 100%;
+ align-items: center;
+ display: block;
+ box-shadow: 10px 4px 10px white, 5px 5px 18px rgb(255, 251, 251);
+}
+.refresh:hover{
+    box-shadow: inset 10px 4pc 10pc white, 5px 5px 18px rgb(255, 254, 254);
+}
+.card{
+    background-color:aliceblue;
+    color: black;
+    align-items: center !important;
+    border-radius: 10%;
+    margin-left: 300px;
+    padding: 3%;
+    margin-top: 75px;
+    box-shadow: 5px 5px 10px rgb(231, 227, 227),-5px -5px 10px rgb(246, 220, 220);
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: center !important;
+}
+.fa fa-arrow-rotate{
+    color: aliceblue;
+    
+}
+#loc{
+    color: rgb(46, 219, 106);
+}
+#icon{
+    height: 35px;
+    width: 35px;
+    
+}
